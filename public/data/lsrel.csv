@@ -1,0 +1,7 @@
+relnum,source,target,relationship
+6,c,a,DependsOn
+5,c,d,Anti-Collocated
+1,a,b,DependsOn
+2,a,c,StartAfter
+3,b,c,StartAfter
+4,b,d,Collocated

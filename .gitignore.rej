@@ -1,0 +1,12 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -1,10 +0,0 @@
+-/node_modules
+-/public/storage
+-/public/hot
+-/storage/*.key
+-/vendor
+-/.idea
+-/config/database.php
+-Homestead.json
+-Homestead.yaml
+-.env

@@ -1,0 +1,866 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+/**************************************
+cursor
+**************************************/
+
+i {
+    cursor: pointer;
+}
+
+/**************************************
+nav-pref
+**************************************/
+a[name=nav-pref] {
+    text-decoration: none;
+    color: #002E40;
+    margin-left: 90%;
+}
+
+/**************************************
+AUTOPLAY BANNER
+**************************************/
+
+div[name=banner] {
+    /*background: url('../img/banner-bg-1.jpg') no-repeat;*/
+    background: -webkit-linear-gradient(top left, #E4A972, #9941D8) fixed;
+    background: -moz-linear-gradient(top left, #E4A972, #9941D8) fixed;
+    background: -o-linear-gradient(top left, #E4A972, #9941D8) fixed;
+    background: linear-gradient(to bottom right, #E4A972, #9941D8) fixed;
+    background-size: cover;
+    min-height: 500px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+div[name=banner] a {
+    text-decoration: none;
+}
+
+div[name=banner] .autoplay-top,
+.autoplay-top * {
+    outline: none !important;
+}
+
+div[name=banner-img] {
+    height: 500px;
+    overflow: hidden;
+    /*background-repeat: no-repeat;*/
+}
+
+
+
+#event .autoplay,
+.autoplay * {
+    outline: none !important;
+}
+
+#today-novel .page-title a {
+    color: #002E40;
+    text-decoration: none;
+}
+
+
+/**************************************
+GENRE
+**************************************/
+
+.genre {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.genre-default {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/**************************************
+default-padding
+**************************************/
+
+#default-padding-small-0 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#default-padding-small {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#default-padding-small-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#default-padding-mid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#default-padding-mid-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#default-padding-big {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/**************************************
+sort
+**************************************/
+
+.sort>h5>span {
+    /*border: 1px solid #FF0000;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.sort>h5>.sort-text {
+    height: 20px;
+}
+
+
+/**************************************
+NOVEL-INFO
+**************************************/
+
+#novel-info-1 .novel-info-upper-text {
+    padding-top: 30px;
+}
+
+#novel-info-1 .novel-info-upper-icon>i {
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#novel-info-1 .novel-info-upper-icon>h4 {
+    font-size: 16px;
+}
+
+#novel-info-2 .form-control {
+    width: 180px;
+}
+
+#novel-info-2 .hit-icon {
+    font-size: 20px;
+}
+
+#novel-info-2 .upload-day b {
+    color: #FA9600;
+}
+
+#novel-info-2 .novel-1st-read-Btn,
+.novel-background-read-Btn {
+    font-size: 22px;
+}
+
+#novel-info-2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#novel-info-3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#novel-info-3 .episode {
+    border: 1px solid rgba(149, 152, 154, .5) !important;
+}
+
+#novel-info-3 .episode-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#novel-info-3 .episode-list>i {
+    font-size: 17px;
+}
+
+#novel-info-3 .fa-star {
+    color: #FA9600;
+}
+
+
+/**************************************
+NOVEL-REVIEW
+**************************************/
+
+#novel-review .check-icon {
+    color: #FA9600;
+}
+
+#novel-review .review-list {
+    border-bottom: 1px solid rgba(149, 152, 154, .5) !important;
+}
+
+
+/*#novel-review .thumb-up {
+    color: #FA9600;
+}*/
+
+i[name=thumb]:hover {
+    color: #FA9600;
+}
+
+#novel-review .thumb-up>span {
+    /*border: 1px solid #FF0000;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+#novel-review .thumb-up>span>i {
+    /*color: #FA9600;*/
+    font-size: 16px;
+}
+
+#novel-review .review>span {
+    /*border: 1px solid #FF0000;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+#novel-review .review .re-review-text {
+    height: 28px;
+}
+
+#novel-review .review>span>i {
+    color: rgba(149, 152, 154, .5) !important;
+}
+
+
+/**************************************
+READ-NOVEL-INFO
+**************************************/
+
+#read-novel-info {
+    border-bottom: 1px solid rgba(149, 152, 154, .2) !important;
+}
+
+#read-novel-info a {
+    text-decoration: none;
+    color: #002E40;
+}
+
+#read-novel-info .info-text {
+    padding-left: 220px;
+}
+
+#read-novel-info .info-icon {
+    padding-right: 220px;
+    font-size: 20px;
+}
+
+#read-novel-info .info-icon>ul>li>i {
+    /*border: 1px solid #FF0000;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    font-size: 38px;
+}
+
+h4>span {
+    /*border: 1px solid #FF0000;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.novel-info-text {
+    height: 25px;
+}
+
+
+/**************************************
+BookMode : READ-NOVEL-INFO
+**************************************/
+
+ul[name=bookMode] .setView {
+    color: #002E40;
+}
+
+ul[name=bookMode] .novelBackground {
+    color: #2A5769;
+}
+
+
+/**************************************
+READ-NOVEL-VIEW
+**************************************/
+
+
+/*#read-novel-view .novel-viewer {
+    font-size: 14px;
+    font-family: 'Nanum Gothic';
+    line-height: 170%;
+}*/
+
+#read-novel-view .bookContainer {
+    /*border: 1px solid red;*/
+    width: 1500px;
+    height: 600px;
+}
+
+#read-novel-view .bookContainer .leftPage {
+    /*border-right: 1px solid blue;*/
+    padding: 30px 40px 30px 50px;
+}
+
+#read-novel-view .bookContainer .rightPage {
+    /*border-left: 1px solid blue;*/
+    padding: 30px 50px 30px 40px;
+}
+
+#read-novel-view .webContainer {
+    width: 1080px;
+    border-right: 1px solid rgba(149, 152, 154, .2) !important;
+    border-left: 1px solid rgba(149, 152, 154, .2) !important;
+}
+
+#read-novel-view .container .novel-viewer-web {
+    padding: 30px 80px 30px 80px;
+    /*border: 1px solid rgba(149, 152, 154, .2) !important;*/
+}
+
+#read-novel-view .mark-icon>ul>li>span {
+    /*border: 1px solid #FF0000;*/
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+#read-novel-view .mark-icon>ul>li>span>i {
+    font-size: 35px;
+}
+
+#read-novel-view .mark-icon .mark-text {
+    height: 35px;
+    font-size: 18px;
+}
+
+
+/**************************************
+READ-NOVEL-VIEW : BACKGROUND
+**************************************/
+
+.background-fluid {
+    height: auto;
+    overflow: auto;
+}
+
+img[name=img_icon] {
+    margin: 17px !important;
+    cursor: pointer;
+}
+
+div[name=map-info]>img {
+    width: 750px !important;
+}
+
+.selectedImg {
+    width: 170px !important;
+    height: auto;
+}
+
+path.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+text {
+    fill: #000;
+    font: 10px sans-serif;
+}
+
+.droppable {
+    background-color: blue;
+}
+
+.selectedNode>circle {
+    stroke: green;
+    stroke-width: 3;
+}
+
+.selectedNode>text::before {
+    content: "Joe's Task:";
+    stroke: red;
+    stroke-width: 3;
+}
+
+.sourceNode>circle {
+    stroke: red;
+    stroke-width: 3;
+}
+
+.targetNode>circle {
+    stroke: blue;
+    stroke-width: 3;
+}
+
+.selectedLink {
+    stroke: red;
+    stroke-width: 3;
+}
+
+.selectedRelation {
+    stroke: red;
+    stroke-width: 1;
+}
+
+.function-div {
+    margin-top: 12px;
+    background-color: #BDBDBD;
+    text-align: center;
+}
+
+.form-control {
+    width: auto;
+}
+
+.mind-area {
+    width: 800px !important;
+    height: auto !important;
+}
+
+
+/**************************************
+READ-NOVEL-VIEW : WRITER WORD
+**************************************/
+
+#writer-word .container {
+    width: 1080px;
+    padding: 20px 80px 0px 80px;
+    background-color: rgba(149, 152, 154, .2) !important;
+}
+
+#episode-icon .move-icon {
+    /*border: 1px solid #FF0000;*/
+    font-size: 90px;
+    color: rgba(149, 152, 154, .8) !important;
+}
+
+#episode-icon .move-text {
+    padding: 0px 20px 0px 20px;
+}
+
+#episode-icon a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/**************************************
+QUICKMENU
+**************************************/
+
+#quickMenu {
+    position: absolute;
+    top: 200px;
+    /*border:solid 3px #002E40;*/
+    width: 225px;
+    height: auto;
+}
+
+#quickMenu a {
+    color: #002E40;
+}
+
+#quickMenu .remoteButton {
+    font-size: 35px;
+}
+
+#quickMenu .remoteArrow {
+    font-size: 30px;
+}
+
+#quickMenu table {
+    border-bottom: none;
+}
+
+#quickMenu th {
+    padding-left: 60px;
+    padding-top: 13px;
+    color: white;
+    background: gray;
+}
+
+
+/*#quickMenu th > button {
+    font-size: 19px;
+    color: white;
+}*/
+
+
+/*#quickMenu th, td {
+    border: 1px solid black;
+}*/
+
+#quickMenu select {
+    width: 160px;
+}
+
+#quickMenu table a {
+    text-decoration: none;
+    color: white;
+}
+
+#quickMenu tr .remote {
+    background: #002E40;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+#quickMenu span {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    /*border: 1px solid red;*/
+}
+
+
+/**************************************
+QUICKMENU : MODAL
+**************************************/
+
+#viewerModal .viewScreen {
+    /*background: red;*/
+    width: 40px;
+    height: 40px;
+}
+
+.viewOn {
+    border: 1px solid #FA9600;
+    background: #FA9600;
+}
+
+.viewOff {
+    border: 1px solid gray;
+    background: gray;
+}
+
+#viewerModal .example-text {
+    height: 100px;
+    border: 1px solid rgba(149, 152, 154, .5);
+    overflow: auto;
+}
+
+.on-font {
+    color: #FA9600;
+}
+
+.off-font {
+    color: black;
+}
+
+#viewerModal .colorBox {
+    /*background: black;*/
+    /*border: 1px solid rgba(149, 152, 154, .9);*/
+    width: 30px;
+    height: 30px;
+}
+
+.on-colorBox {
+    border: 1.5px solid #FA9600;
+}
+
+.off-colorBox {
+    border: 1px solid rgba(149, 152, 154, .9);
+}
+
+#backgroundModal .huge-size {
+    width: 1000px;
+}
+
+#backgroundModal .modal-body i {
+    color: #555555;
+}
+
+
+/**************************************
+TODAY NOVEL : DAY SELECT
+**************************************/
+
+#select-space {
+    font-size: 18px;
+}
+
+#select-space a {
+    color: #002E40;
+    text-decoration: none;
+}
+
+#select-space li[name=dayCircle] {
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    /*border: 1px solid black;*/
+    border-radius: 100%;
+}
+
+#select-space li[name=dayCircle]>strong {
+    margin: auto;
+}
+
+#select-space .fake-circle {
+    padding: 25px;
+    /*border: 1px solid blue;*/
+    border-radius: 100%;
+}
+
+.selectedDay {
+    background-color: #FA9600;
+}
+
+.selectedDay>strong {
+    color: white;
+}
+
+.genreMenu {
+    border-spacing: 15px;
+}
+
+.genreMenu>td {
+    padding: 50px;
+}
+
+
+/**************************************
+selectedIcon : jhm.js
+**************************************/
+
+.selectedBookmark {
+    color: #2A5769 !important;
+}
+
+.selectedIcon {
+    color: #FA9600 !important;
+}
+
+.selectedFavorite {
+    color: rgba(255, 0, 0, 0.5) !important;
+}
+
+
+/**************************************
+NOVEL COMMENT
+**************************************/
+
+.userComment>input {
+    height: 100px !important;
+}
+
+.userComment-small>input {
+    height: 80px !important;
+}
+
+.commentReply>input {
+    height: 60px !important;
+}
+
+/**************************************
+BLOG - BLOG TOP & SIDE MENU
+**************************************/
+#blog-top-menu {
+    /* background: burlywood; */
+    height: 65px;
+    padding-top: 20px;
+}
+
+#blog-side-menu {
+    /* background: beige; */
+    width: 200px;
+}
+
+#blog-side-menu .user_icon > i {
+    font-size: 170px;
+}
+
+#blog-side-menu .user_profile {
+    /* border: 1px solid burlywood; */
+}
+
+#blog-side-menu a {
+    text-decoration: none;
+    color: #002E40;
+}
+
+#blog-side-menu .user_setting div {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+#blog-side-menu .user_novel_nav, .blog_menu_nav {
+    /* border: 1px solid burlywood; */
+}
+
+#blog-side-menu .user_novel_nav, .blog_reader_menu_nav {
+    margin-top: 10px;
+    /* border: 1px solid burlywood; */
+}
+
+#blog-side-menu .blog_info_bar {
+    /* border: 1px solid burlywood; */
+}
+
+#blog-side-menu .blog_info_bar .blog_follow_info div, .writer_novel_info div {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+#blog-side-menu .blog_info_bar div[name=blogInfoNumText] {
+    /*border: 1px solid red;*/
+    padding-bottom: 15px;
+}
+
+#blog-side-menu .blog_counter .blog_visit_info div {
+    display: inline-block;
+    position: relative;
+    padding: 12px;
+}
+
+/**************************************
+BLOG - BLOG MAIN
+**************************************/
+#blog-main {
+    width: 900px;
+    margin-left: 50px;
+}
+
+#blog-main .blog_notice_list {
+    height: 40px;
+    /* background-color: red; */
+    /* border: 1px solid rosybrown; */
+}
+
+#blog-main .blog_notice_list a {
+    text-decoration: none;
+    color: black;
+}
+
+#blog-main .blog_notice_list a:hover {
+    text-decoration: underline;
+}
+
+/* #blog-main .blog_notice_list li {
+    padding: 3px 0px 3px 0px;
+} */
+
+#blog-main .blog_notice_list .list_text {
+    padding-top: 8px;
+}
+
+#blog-main .blog_notice {
+    padding-top: 30px;
+    /* border: 1px solid salmon; */
+    /* height: 1485px; */
+}
+
+div[name=title_line] {
+    border-top: 1px solid rgba(149, 152, 154, .5);
+}
+
+#blog-main .board_title ul {
+    display: table-row;
+}
+
+#blog-main .board_title ul li {
+    display: table-cell;
+}
+
+#blog-main .board_timestamp {
+    /* color: red; */
+    /* margin-left: 210px; */
+    text-align: right;
+}
+
+#blog-main .board_content {
+    min-height: 450px;
+}
+
+#write-form {
+    margin-left: 100px;
+    height: 1485px;
+    /* border: 1px solid salmon; */
+}
+
+#post-category {
+    height: 26px;
+    width: 100%;
+} 
+
+#post-title {
+    width: 100%;
+}
+
+#post-content {
+    margin-top: 10px;
+}
+
+#write-form button {
+    margin-top: 20px;
+    align-content: center;
+    
+} 
+
+a[name='blog_click'] {
+    text-decoration: none;
+}
+
+#blog-set i {
+    font-size: 150px; 
+}
+
+#blog-set .blog_menu_set i, .blog_menu_set h4 {
+    color: #FA9600;
+}
+#blog-set .blog_menu_set i:hover {
+    color: #E4A972;
+}
+
+#blog-set .blog_design_set i, .blog_design_set h4 {
+    color: #9941D8;
+}
+#blog-set .blog_design_set i:hover {
+    color: #666;
+}
+
+#blog-set .my_novel_set i, .my_novel_set h4 {
+    color: #2A5769;
+}
+#blog-set .my_novel_set i:hover {
+    color: #000000;
+}
+
+#blog-set > div {
+    padding: 100px 0px 100px 0px;
+    height: 600px;
+}
+
